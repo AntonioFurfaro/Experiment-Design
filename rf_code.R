@@ -103,7 +103,7 @@ names(tests) <- file_list
 results_rf <- list()
 itermax <- 25
 
-# for each data set and and for each iteration, I estimated a decision tree using 
+# for each data set and and for each iteration, I estimated a random forest using 
 # bayesian optimization for tuning the hyperparameters, and a 5 fold cross
 # validation to estimate the accuracy that is used as a measure to optimize thise
 # hyperparameters. Then, I saved the results, i.e. the predicted group on the
